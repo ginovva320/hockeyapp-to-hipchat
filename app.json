@@ -1,0 +1,31 @@
+{
+  "name": "HockeyApp to HipChat Notifier",
+  "description": "Integration between HockeyApp and HipChat. Deploy to Heroku and set it as a webhook within HockeyApp",
+  "keywords": [
+    "hockeyapp",
+    "hipchat",
+    "heroku"
+  ],
+  "repository": "https://github.com/ginovva320/hockeyapp-to-hipchat",
+  "logo": "https://github.com/ginovva320/hockeyapp-to-hipchat/raw/master/logo.png",
+  "env": {
+    "HIPCHAT_KEY": {
+      "description": "Your HipChat API key",
+      "required": true
+    },
+    "HIPCHAT_ROOM": {
+      "description": "Name or ID of the HipChat room to message",
+      "required": true
+    },
+    "NOTIFY": {
+      "description": "Whether or not to post a notification to the room's users (0 or 1)",
+      "value": "0",
+      "required": false
+    },
+    "FROM": {
+      "description": "Sender name",
+      "value": "HockeyApp",
+      "required": false
+    }
+  }
+}

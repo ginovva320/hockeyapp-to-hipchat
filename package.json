@@ -1,0 +1,19 @@
+{
+  "name": "hockeyapp-to-hipchat",
+  "version": "1.0.0",
+  "description": "A webhook receiver which posts updates HipChat",
+  "main": "index.js",
+  "keywords": [
+    "hockeyapp",
+    "heroku",
+    "hipchat"
+  ],
+  "author": "Anid Monsur <ginovva320@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "hipchat-client": "^1.0.2",
+    "underscore": "^1.7.0"
+  }
+}
